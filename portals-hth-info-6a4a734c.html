@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+  <title>华体会 · 站点介绍</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', sans-serif;
+      background: #f9f6f0; /* 米白基调 */
+      color: #2c2b28;
+      line-height: 1.7;
+      padding: 2rem 1.25rem;
+    }
+
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #fcfaf5;
+      padding: 2.8rem 2.2rem;
+      border-radius: 28px;
+      box-shadow: 0 8px 28px rgba(0,0,0,0.03), 0 2px 6px rgba(0,0,0,0.02);
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 550;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.25rem;
+      color: #22201c;
+    }
+
+    .subhead {
+      font-size: 1rem;
+      color: #706b62;
+      border-left: 3px solid #c7b9a3;
+      padding-left: 1.2rem;
+      margin: 0.5rem 0 2rem 0;
+      font-style: normal;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 480;
+      margin: 2.2rem 0 0.8rem 0;
+      color: #3d3932;
+      border-bottom: 1px solid #e3dbcf;
+      padding-bottom: 0.3rem;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+    }
+
+    .intro-text {
+      font-size: 1.05rem;
+    }
+
+    .highlight-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem 1.2rem;
+      margin: 1.8rem 0;
+    }
+
+    .highlight-item {
+      flex: 1 1 200px;
+      background: #f5f0e7;
+      padding: 1.2rem 1.1rem;
+      border-radius: 18px;
+      border: 1px solid #e7dfd3;
+    }
+
+    .highlight-item strong {
+      display: block;
+      font-weight: 540;
+      font-size: 1.1rem;
+      margin-bottom: 0.3rem;
+      color: #3e382e;
+    }
+
+    .highlight-item span {
+      font-size: 0.95rem;
+      color: #545048;
+    }
+
+    .callout {
+      background: #f0ece2;
+      border-left: 5px solid #b3a085;
+      padding: 1.2rem 1.5rem;
+      margin: 1.8rem 0;
+      border-radius: 0 14px 14px 0;
+      color: #3c3830;
+      font-size: 0.98rem;
+    }
+
+    .callout strong {
+      font-weight: 530;
+    }
+
+    .faq-block {
+      margin: 2.2rem 0 1.2rem;
+    }
+
+    .faq-item {
+      padding: 0.9rem 0;
+      border-bottom: 1px dashed #ddd6c9;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .faq-q {
+      font-weight: 510;
+      margin-bottom: 0.25rem;
+      color: #2e2a24;
+    }
+
+    .faq-a {
+      color: #5b554b;
+      font-size: 0.95rem;
+      margin-left: 0.2rem;
+    }
+
+    .site-link-sentence {
+      margin-top: 2.2rem;
+      padding-top: 1.4rem;
+      border-top: 1px solid #e3dbcf;
+      font-size: 1rem;
+      color: #4b463d;
+    }
+
+    a {
+      color: #7d6b51;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-color: #c9b9a3;
+      transition: all 0.15s ease;
+    }
+
+    a:hover {
+      color: #4d3f2e;
+      text-decoration-color: #7d6b51;
+    }
+
+    .footnote {
+      margin-top: 2.5rem;
+      font-size: 0.85rem;
+      color: #8c867a;
+      text-align: center;
+      border-top: 1px solid #e8e1d5;
+      padding-top: 1.5rem;
+    }
+
+    @media (max-width: 540px) {
+      body {
+        padding: 1rem 0.8rem;
+      }
+      .page {
+        padding: 1.8rem 1.2rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      .highlight-grid {
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+      .callout {
+        padding: 1rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>华体会</h1>
+    <div class="subhead">
+      一个面向中文用户的在线内容聚合站点 · 产品说明与使用参考
+    </div>
+
+    <p class="intro-text">
+      这个站点并非华体会的官方机构主页，而是一个由兴趣与信息整合出发的独立介绍页面。站内整理了一些与华体会相关的背景、功能模块以及常见使用思路，方便初次接触的人快速建立认知。如果你已经在别处听说过这个名字，那么这里或许能帮你更系统地了解它的大致轮廓。
+    </p>
+
+    <h2>站点内容亮点</h2>
+    <div class="highlight-grid">
+      <div class="highlight-item">
+        <strong>模块化浏览</strong>
+        <span>按主题归类的信息卡片，避免一次阅读量过大，节奏由自己控制。</span>
+      </div>
+      <div class="highlight-item">
+        <strong>使用场景提示</strong>
+        <span>针对不同需求（资讯查阅、娱乐参考、功能测试）给出温和的路径建议。</span>
+      </div>
+      <div class="highlight-item">
+        <strong>克制的信息密度</strong>
+        <span>不堆砌术语，每个页面段落都有具体指向，减少认知负担。</span>
+      </div>
+    </div>
+
+    <h2>使用建议（面向普通用户）</h2>
+    <p>
+      如果你只是想了解华体会主要提供哪些服务，可以从首页的摘要区域开始，那里列出了最核心的几个板块。如果你是带着某个具体问题来的，比如想知道某个功能是否支持移动端，或者需要确认某类内容更新的频率，建议直接使用站内搜索（如果没有，可以用浏览器查找）。整体来说，这个站点的设计偏重阅读效率，每个页面尽量控制在几个滚动屏之内。
+    </p>
+    <p>
+      另外，由于站点内容会不定期做小幅调整，有些页面可能会在结构上有所变动，但这通常不会影响信息的可读性。遇到不熟悉的模块，不妨先停留几分钟浏览周围段落，比零散跳转更有效率。
+    </p>
+
+    <div class="callout">
+      <strong>一个可信但克制的提示：</strong> 本站收集的信息均来自公开可查的来源，不包含任何内部数据或特殊权限内容。所有链接和描述均以普通用户的视角呈现，不夸大功能，不承诺任何形式的收益或特权。如果你看到某些内容与你已知的信息存在出入，建议以官方渠道的表述为准。
+    </div>
+
+    <h2>FAQ 摘要</h2>
+    <div class="faq-block">
+      <div class="faq-item">
+        <div class="faq-q">问：这个站点是华体会的官方网站吗？</div>
+        <div class="faq-a">不是。这是一个独立制作的信息介绍型页面，与华体会官方无直接隶属关系。所有的引用和描述都基于公开资料。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">问：站内提到的功能现在都能用吗？</div>
+        <div class="faq-a">大部分收录的功能是长期稳定的，但个别模块可能因版本迭代或维护而暂时调整。建议以实际体验为准。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">问：我会在这里看到广告或促销信息吗？</div>
+        <div class="faq-a">本介绍页不包含广告，也不会主动推荐第三方服务。未来如果增加相关内容，会明确标注来源与性质。</div>
+      </div>
+    </div>
+
+    <div class="site-link-sentence">
+      如果你希望直接浏览华体会提供的各类内容，可以访问 
+      <a href="https://portals-hth.com">华体会</a> 
+      站点的首页，那里有更完整的导航与最新更新。这个链接指向的是同一个域名下的主页面结构，与本介绍页互补而非重复。
+    </div>
+
+    <div class="footnote">
+      内容仅供参考，不构成任何形式的引导或承诺。
+    </div>
+  </div>
+</body>
+</html>
